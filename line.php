@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿<?php
+<!doctype html>
 <html>
 <head>
 	<html lang="ja">
@@ -17,15 +18,15 @@
 	<main>
 		<a href="https://access.line.me/dialog/oauth/weblogin?response_type=code&client_id=1567087773&redirect_uri=https://aonr.jp/app/line.html">
 		<img src="img.jpg" width="20%">
+		<script>
+   			var postedData = <?php echo($_POST['code']); ?>;
+   			alert(postedData);
+		</script>
+		<textarea name="postedData"></textarea>
 		</a>
 		<p><a href="TOP.html">TOPへ</a></p>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script>
-			$(function(){
-	  			$("#code").text($(location).attr('search').replace("?code=", ""));
-			});
-		</script>
-		<div id="code"></div>
+
+		 <h2>「ここに」<?php $_POST['code'] ?>「表示」</h2>
 	</main>
 
 	<footer>
@@ -34,3 +35,5 @@
 
 </body>
 </html>
+
+?>

@@ -11,20 +11,20 @@
 </head>
 <body>
 	<header>
-		<h1>自動販売機迷子捜索システム</h1>
+		<div id="title"><img src="title_pc.jpg" width="100%"></div>
 	</header>
 
 	<main>
 		<form id="frm_a" action="new.txt" onsubmit="alert('検索を開始します'); return true;">
     	<fieldset>
-        	<legend>タグ登録</legend>
-       		<p>
+			<div id="tag"><p>
 				<label for="tag_id">タグID：<input type="text" class="txt" id="tag_id" name="tag_id" size="10" /></label>
-    	    </p>
-        		<a href="main.html"><input type="submit" class="submit" value="検索する"></a> 
-	    	</fieldset>
+        	</p></div>
+			<center><a href="main.html"><input type="submit" class="submit" value="検索する"></a></center>
+	    	</fieldset>	
 		</form>
-		<a href="main.html">検索結果を表示する</a>
+		<center><a href="main.html">検索結果を表示する</a></center>
+		<center><a href="line.html">Line Login</a></center>
 	</main>
 
 	<footer>
