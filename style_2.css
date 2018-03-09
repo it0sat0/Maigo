@@ -95,6 +95,23 @@ main img{
     align-items: center; 
 }
 
+navi ul{
+    list-style: none;
+    margin: 10px auto 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+navi li{
+    display: inline;
+    width: auto;
+    margin: 5px 10px;
+    font-size: 17px;
+    padding: 5px;
+}
+
 footer{
     width: 100%;
     height:auto;
