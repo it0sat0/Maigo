@@ -1,5 +1,6 @@
 ﻿html{
     overflow-y:scroll;
+    text-decoration: none;
 }
 
 body{
@@ -110,6 +111,8 @@ navi li{
     margin: 5px 10px;
     font-size: 17px;
     padding: 5px;
+    text-decoration: none;
+    border:solid black 2px;
 }
 
 footer{
