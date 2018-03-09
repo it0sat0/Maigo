@@ -73,6 +73,10 @@ form#frm_a input.submit {
     font-weight:bold;
 }
 
+main img{
+    width:50%;
+}
+
 #tag{
     margin:auto;
     display: flex;
