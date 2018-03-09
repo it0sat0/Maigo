@@ -36,7 +36,7 @@ main{
 }
 
 form#frm_a {
-	width: 30%;
+	width: 40%;
     margin:10px auto; 
     padding:0;
 }
@@ -96,5 +96,8 @@ main img{
 }
 
 footer{
-    
+    width: 100%;
+    height:auto;
+    background-color:black;
+    color:white;
 }

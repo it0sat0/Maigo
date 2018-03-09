@@ -73,8 +73,15 @@ form#frm_a input.submit {
     font-weight:bold;
 }
 
+main .text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 main img{
-    width:50%;
+    width:70%;
 }
 
 #tag{
@@ -85,5 +92,8 @@ main img{
 }
 
 footer{
-    
+    width: 100%;
+    height:auto;
+    background-color:black;
+    color:white;
 }
