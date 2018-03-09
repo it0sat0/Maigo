@@ -77,6 +77,13 @@ form#frm_a input.submit {
     font-weight:bold;
 }
 
+main .text{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 main img{
     width:30%;
 }

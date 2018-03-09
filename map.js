@@ -1,6 +1,6 @@
 ﻿function initMap() {
-	var px = 35.1239654;
-	var py = 136.9417741;
+	var px = 34.704166;
+	var py = 135.494943;
 	var opts = {
 		zoom: 15,
 		center: new google.maps.LatLng(px, py)
